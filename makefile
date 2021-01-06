@@ -1,8 +1,7 @@
 
 run: zhou1298.cpp 
-	g++ zhou1298.cpp -std=c++11 -o parser 
-	./parser NLDM_lib_max2Inp c1908_.isc 8 12
-
+	g++ zhou1298.cpp -std=c++11 -o sta 
+	./sta NLDM_lib_max2Inp b15_1.isc 
 
 .PHONY:clean 
 clean: 
